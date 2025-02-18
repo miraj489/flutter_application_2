@@ -13,15 +13,15 @@ class LabClass05 extends StatelessWidget {
       title: "Basic Flutter UI-02",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Basic Flutter UI-02"),
-          backgroundColor: Colors.blue[400],
+          title: Text("5 Star"),
+          backgroundColor: const Color.fromARGB(255, 212, 66, 245),
           centerTitle: true,
         ),
         body: Row(
           children: [
             Icon(
              Icons.star,
-             size: 50, 
+             size: 50,
             ),
             Icon(
              Icons.star,
@@ -39,6 +39,7 @@ class LabClass05 extends StatelessWidget {
              Icons.star,
              size: 50, 
             ),
+            
           ],
         ),
       ),
